@@ -7,9 +7,29 @@ body {
     background-color: white;
 }
 
-#searchbutton {
-    grid-area: 3 / 1 / span 1 / span 1;
+.search-button {
     justify-self: center;
+    align-self: center;
+    padding-bottom: 80px;
+    column-gap: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #f2f2f2;
+}
+
+
+#normalsearch, #randomsearch {
+    margin-right: 20px;
+    height: 36px;
+    line-height: 27px;
+    border-radius: 4px;
+    border: 1px solid;
+    color: #5F6368;
+    background-color: #f2f2f2;
+}
+
+#normalsearch:hover, #randomsearch:hover {
+    color: #222;
 }
 
 .searchfield {
@@ -19,6 +39,9 @@ body {
 
 #searchfield {
     width: 550px;
+    margin-bottom: 30px;
+    border-radius: 24px;
+    height: 34px;
 }
 
 .mainpage {
